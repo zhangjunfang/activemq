@@ -47,7 +47,7 @@ class Publisher {
 		for (int i = 0; i < size; i++) {
 			body += DATA.charAt(i % DATA.length());
 		}
-        System.out.println(body);
+		System.out.println(body);
 		JmsConnectionFactory factory = new JmsConnectionFactory(connectionURI);
 
 		Connection connection = factory.createConnection(user, password);
@@ -82,8 +82,9 @@ class Publisher {
 
 	private static String env(String key, String defaultValue) {
 		String rc = System.getenv(key);
-		if (rc == null)
+		if (rc == null) {
 			return defaultValue;
+		}
 		return rc;
 	}
 
