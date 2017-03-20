@@ -14,6 +14,7 @@ import org.fusesource.mqtt.client.Topic;
  */
 class Listener {
 
+	@SuppressWarnings("deprecation")
 	public static void main(String[] args) throws Exception {
 
 		String user = env("ACTIVEMQ_USER", "admin");
