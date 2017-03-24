@@ -44,7 +44,7 @@ class Publisher {
 
 		String DATA = "abcdefghijklmnopqrstuvwxyz";
 		String body = "";
-		for (int i = 0; i < size; i++) {
+		for (int i = 0; i < size; i++) { 
 			body += DATA.charAt(i % DATA.length());
 		}
 		System.out.println(body);

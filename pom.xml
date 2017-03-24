@@ -17,12 +17,10 @@
 	<groupId>example</groupId>
 	<artifactId>amqp-example</artifactId>
 	<version>0.1-SNAPSHOT</version>
-
+     
 	<name>example</name>
 	<description>ActiveMQ AMQP Java Examples</description>
-
 	<dependencies>
-
 		<dependency>
 			<groupId>org.apache.geronimo.specs</groupId>
 			<artifactId>geronimo-jms_1.1_spec</artifactId>
